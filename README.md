@@ -1,6 +1,5 @@
 # AI-Based Drowsiness Detection System
-
-A real-time driver drowsiness detection system using computer vision techniques to improve road safety.
+Real-time computer vision system for detecting driver fatigue and preventing accidents.
 
 ## Features
 - Real-time face detection
@@ -12,6 +11,18 @@ A real-time driver drowsiness detection system using computer vision techniques 
 - Python
 - OpenCV
 - MediaPipe
+
+## Algorithm / Logic
+The system uses MediaPipe to detect facial landmarks and track eye movement.
+When the eyes remain closed for a certain duration, it identifies drowsiness and triggers an alert.
+
+## Topics
+- python
+- opencv
+- mediapipe
+- computer-vision
+- AI-project
+- drowsiness-detection
 
 ## How It Works
 The system captures live video using a webcam, detects facial landmarks, and monitors eye movement patterns. If signs of drowsiness (like prolonged eye closure) are detected, an alert is triggered.
