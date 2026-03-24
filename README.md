@@ -1,24 +1,29 @@
-# Drowsiness Detection Project
+# AI-Based Drowsiness Detection System
 
-## Requirements
-- Python 3.8+
-- OpenCV: pip install opencv-python
-- Mediapipe: pip install mediapipe
-- Pygame: pip install pygame
-
-## How to Run
-1. Place your clean alarm WAV as `alarm.wav` in the project folder.
-2. Run main.py:
-    python main.py
-3. Press 'q' to quit.
+A real-time driver drowsiness detection system using computer vision techniques to improve road safety.
 
 ## Features
-- 1-second eyes-closed detection
-- EAR smoothing to avoid false alarms
-- Automatic WAV fix for glitch-free alarm sound
-- Easily replace alarm.wav to change sound
+- Real-time face detection
+- Eye movement tracking
+- Blink detection
+- Alert system for fatigue detection
 
-## Optional Scripts
-- fix_wave.py: Fix corrupt WAV files
-- compare_wav.py: Compare two WAV files
-- compare_audio.py: Check WAV file properties
+## Tech Stack
+- Python
+- OpenCV
+- MediaPipe
+
+## How It Works
+The system captures live video using a webcam, detects facial landmarks, and monitors eye movement patterns. If signs of drowsiness (like prolonged eye closure) are detected, an alert is triggered.
+
+## Run Project
+pip install -r requirements.txt  
+python main.py
+
+## Future Improvements
+- Add sound alerts
+- Improve accuracy
+- Deploy as web app
+
+## Author
+Shreya Gupta
